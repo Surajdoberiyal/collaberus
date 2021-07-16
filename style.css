@@ -223,7 +223,26 @@
     background-color: rgb(247,224,193);
     
   }
+  @media (max-width: 375px)
+  {
+    #card987 {
+      width: 41vh;  
 
+      }
+      #card9876 {
+        width: 40vh;  
+  
+        }
+        #card9875 {
+          width: 40vh;  
+    
+          }
+
+    #card0000{
+      font-size: 25px;
+    }
+        
+    }
 
   /* ----------------------------------------------------end ---------------------- */
 
@@ -279,7 +298,9 @@ text-transform: uppercase;
 font-weight: 600;
 margin-bottom: 20px;
 }
-
+#color-123{
+  color: whitesmoke;
+}
 .contact-in h3 {
 color: ivory;
 position:inherit;
@@ -575,9 +596,12 @@ color: #fff;
 @media (max-width:425px)
 {
  .text-justify{
-     width: 20rem;
+     width: 17rem;
      padding: auto;
      margin-top: 18px;
+ }
+ .copyright.text{
+    width:17rem;
  }
 .site-footer{
   width: fit-content;
@@ -589,7 +613,8 @@ color: #fff;
     }
 
     .site-footer .copyright-text, .site-footer .social-icons {
-        text-align: left;
+      width:16rem;  
+      text-align: left;
     }
 
 
