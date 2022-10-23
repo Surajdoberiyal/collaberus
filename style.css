@@ -361,7 +361,12 @@ font-family: 'Poppins', sans-serif;
 color: #fff;
 }
 
-
+@media only screen and (max-width:900px) {
+    .contact-in{
+        margin:0px
+    }
+        
+}
 
 
 @media only screen and (max-width:480px) {
@@ -587,8 +592,9 @@ color: #fff;
   }
 }
 .img12{
-    position: relative;
-    left: 15rem;
+/*     position: relative;
+    left: 15rem; */
+    padding-bottom:10px;
     margin: auto;
     width: 70px;
     display: inline;
